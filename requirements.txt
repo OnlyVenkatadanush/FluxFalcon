@@ -1,8 +1,4 @@
+streamlit
 requests
 openai
-streamlit
-google.generativeai
-ast
-re
-os
-base64
+google-generativeai
