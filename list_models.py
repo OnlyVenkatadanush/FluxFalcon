@@ -2,9 +2,10 @@ import google.generativeai as genai
 from openai import OpenAI
 import ast
 import re
+import os
 
-GEMINI_API_KEY = "AIzaSyASTEWW4sTDNWcuTcD2AWXmuQR1ELy7X8M"
-genai.configure(api_key=GEMINI_API_KEY)
+api_key = os.environ.get("GEMINI_API_KEY")
+genai.configure(api_key=api_key)
 def get_models(api_key):
     client=OpenAI(api_key=api_key,
             base_url="https://api.groq.com/openai/v1")
