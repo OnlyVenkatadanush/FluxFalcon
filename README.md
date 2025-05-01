@@ -18,7 +18,7 @@
     <img src="https://img.shields.io/badge/Launch%20App-Click%20Here-critical?style=for-the-badge&logo=streamlit&logoColor=white" />
   </a>
   &nbsp;
-  <a href="https://github.com/OnlyVenkatdanush/fluxfalcon" target="_blank">
+  <a href="https://github.com/OnlyVenkatdanush/FluxFalcon" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-Repo-333?style=for-the-badge&logo=github" />
   </a>
 </p>
@@ -60,15 +60,15 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/OnlyVenkatdanush/fluxfalcon.git
-cd fluxfalcon
+git clone https://github.com/OnlyVenkatdanush/FluxFalcon.git
+cd FluxFalcon
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Run the app
 streamlit run app.py
-
+```
 
 ---
 
@@ -106,3 +106,4 @@ git commit -m 'Add something cool'
 git push origin feature/new-model
 
 # Open a PR
+```
