@@ -12,7 +12,7 @@ def get_base64_of_image(img_path):
 
 # Set page config
 st.set_page_config(page_title="Flux Falcon", layout="wide", page_icon="photos/logo.jpeg")
-
+st.logo("photos/logo.jpeg")
 # Function to start chat and handle user input
 def start():
     if 'previous_model' in st.session_state:
@@ -61,7 +61,7 @@ with st.sidebar:
     st.markdown("""
             <h1 style='font-size: 40px;color: #87CEEB'>
                 
-      ⚡Flux Falcon🦅
+      ⚡Flux Falcon
             </h1>
             """, unsafe_allow_html=True)
       
