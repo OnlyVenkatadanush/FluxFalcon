@@ -75,8 +75,6 @@ streamlit run app.py
 ## 🔐 Security
 
 - **No API keys are stored** — Keys are entered during runtime and used only for the session.
-- **Gemini key** is safely handled via Streamlit’s secrets manager.
-
 ---
 
 ## 💡 Future Plans
