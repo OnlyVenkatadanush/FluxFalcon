@@ -65,7 +65,7 @@ with st.sidebar:
             </h1>
             """, unsafe_allow_html=True)
       
-    selected_platform = st.selectbox("Choose model platform", ["OpenRouter", "Groq"])
+    selected_platform = st.radio("Choose model platform", ["OpenRouter", "Groq"])
 
 # Improved API key validation function
 def validate_api_key_and_fetch_models(platform, api_key):
