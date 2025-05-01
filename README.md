@@ -18,7 +18,7 @@
     <img src="https://img.shields.io/badge/Launch%20App-Click%20Here-critical?style=for-the-badge&logo=streamlit&logoColor=white" />
   </a>
   &nbsp;
-  <a href="https://github.com/OnlyVenkatdanush/FluxFalcon" target="_blank">
+  <a href="https://github.com/OnlyVenkatadanush/FluxFalcon" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-Repo-333?style=for-the-badge&logo=github" />
   </a>
 </p>
