@@ -152,10 +152,7 @@ encoded_image = get_base64_of_image('photos/background.jpg')
 st.markdown(
     f"""
     <style>
-    html, body, .stApp {{
-        height: 100%;
-        margin: 0;
-        padding: 0;
+    .stApp {{
         background-image: url("data:image/jpeg;base64,{encoded_image}");
         background-size: cover;
         background-repeat: no-repeat;
@@ -166,3 +163,4 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
