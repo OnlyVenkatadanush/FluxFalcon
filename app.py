@@ -61,7 +61,7 @@ with st.sidebar:
     st.markdown("""
             <h1 style='font-size: 40px;color: #87CEEB'>
                 
-      🪽Flux Falcon
+      ⚡Flux Falcon🦅
             </h1>
             """, unsafe_allow_html=True)
       
