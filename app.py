@@ -58,13 +58,13 @@ def start():
 
 # Sidebar selection
 with st.sidebar:
-    
-      st.markdown("""
+    st.markdown("""
             <h1 style='font-size: 40px;color: #87CEEB'>
                 
       🪽Flux Falcon
             </h1>
             """, unsafe_allow_html=True)
+      
     selected_platform = st.selectbox("Choose model platform", ["OpenRouter", "Groq"])
 
 # Improved API key validation function
