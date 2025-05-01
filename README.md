@@ -1,5 +1,5 @@
 
-<h1 align="center">⚡️FluxFalcon</h1>
+<h1 align="center">🐦‍🔥FluxFalcon</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/status-live-brightgreen?style=flat-square" />
   <img src="https://img.shields.io/badge/Powered%20By-Groq%20%26%20OpenRouter-blue?style=flat-square" />
