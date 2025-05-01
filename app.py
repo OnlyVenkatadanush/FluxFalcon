@@ -58,13 +58,11 @@ def start():
 
 # Sidebar selection
 with st.sidebar:
-    col1, col2 = st.columns([2,6])
-    with col1:
-        st.image("photos/background.jpg")
-    with col2:
-        st.markdown("""
+    
+      st.markdown("""
             <h1 style='font-size: 40px;color: #87CEEB'>
-                Flux Falcon
+                
+      🪽Flux Falcon
             </h1>
             """, unsafe_allow_html=True)
     selected_platform = st.selectbox("Choose model platform", ["OpenRouter", "Groq"])
